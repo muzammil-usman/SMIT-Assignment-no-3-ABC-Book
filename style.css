@@ -35,3 +35,19 @@
   text-align: center;
   box-shadow: 8px 8px 4px yellow;
 }
+
+.anchors > a:hover {
+  color: turquoise;
+}
+
+.main-heading:hover {
+  color: tomato;
+  transform: scale(2, 2);
+}
+
+button.btn {
+  width: 250px;
+  height: 125px;
+  color: teal;
+  border: 1px double black;
+}
