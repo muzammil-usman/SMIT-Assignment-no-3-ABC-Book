@@ -11,6 +11,7 @@
   margin-bottom: 15px;
   font-size: 75px;
   color: yellowgreen;
+  text-shadow: 1px 2px 3px steelblue ;
 }
 .anchors {
   margin-top: 30px;
@@ -23,6 +24,8 @@
   color: violet;
   text-decoration: none;
   padding-left: 15px;
+  margin-left: 10px;
+  font-size: larger;
 }
 
 .alphabets {
@@ -30,7 +33,7 @@
   height: 200px;
   border: 1px solid black;
   margin-top: 100px;
-  margin-left: 30%;
+  margin-left: 35%;
   align-items: center;
   text-align: center;
   box-shadow: 8px 8px 4px yellow;
@@ -42,12 +45,28 @@
 
 .main-heading:hover {
   color: tomato;
-  transform: scale(2, 2);
 }
 
-button.btn {
+button {
   width: 250px;
   height: 125px;
   color: teal;
+  background-color: tan;
   border: 1px double black;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  position:fixed;
+  top: 100px;
+  right: 50px;
+}
+
+.btn
+{
+  border-radius: 100px;
+}
+
+.btn > a{
+  text-decoration: none;
+  color: teal;
 }
